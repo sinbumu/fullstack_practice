@@ -9,17 +9,23 @@ class UserIn2(BaseModel):
     username: str
     age: Optional[int] = None
 
-data = UserIn(username="dustring", age="31")
-print("username:",data.username)
-print("age:",data.age,type(data.age))
+# data = UserIn(username="dustring", age="31")
+# print("username:",data.username)
+# print("age:",data.age,type(data.age))
 
-print("as dict:",data.model_dump())
+# print("as dict:",data.model_dump())
 
 u1 = UserIn2(username="dagam")
+print(f'u1: {u1}')
 print(f'u1.model_dump(): {u1.model_dump()}')
 
 u2 = UserIn2(username="dajin", age="2")
+print(f'u2: {u2}')
 print(f'u2.model_dump(): {u2.model_dump()}')
+
+u3 = UserIn2(username="jin", age="42")
+print(f'u3: {u3}')
+print(f'u3.model_dump(): {u3.model_dump()}')
 
 try:
     u_err = UserIn2(username="jin", age="test")
