@@ -8,3 +8,7 @@ config.py
 .vscode/
 /crawling/node_modules
 /crawling/package-lock.json
+/google_sheet/node_modules
+/google_sheet/package-lock.json
+/google_sheet/client_secret.json
+/google_sheet/accessToken.json
