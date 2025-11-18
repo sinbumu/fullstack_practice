@@ -6,3 +6,5 @@ venv/
 *.env
 config.py
 .vscode/
+/crawling/node_modules
+/crawling/package-lock.json
