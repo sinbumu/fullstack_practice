@@ -12,3 +12,5 @@ config.py
 /google_sheet/package-lock.json
 /google_sheet/client_secret.json
 /google_sheet/accessToken.json
+/bootstrap/node_modules
+/bootstrap/package-lock.json
